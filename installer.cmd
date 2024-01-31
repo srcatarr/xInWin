@@ -47,8 +47,14 @@ echo @echo off>>rm.bat
 echo del %1>>rm.bat
 
 echo @echo off>>touch.bat
-echo "echo.>>%1">>touch.bat
+echo File created>>touch.bat
+
+:: Download README
+
+cd ..
+curl -O https://raw.githubusercontent.com/srcatarr/xInWin/main/readme.txt
 
 :: Save to path
+
 
 setx path "%PATH%;%cd%\commands"
