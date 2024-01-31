@@ -10,6 +10,13 @@ echo.
 
 pause
 
+:: Delete older directory
+
+if exist commands (
+    del commands
+    rd commands
+)
+
 :: Make directory
 
 md commands
@@ -40,7 +47,7 @@ echo @echo off>>rm.bat
 echo del %1>>rm.bat
 
 echo @echo off>>touch.bat
-echo echo.>>%1
+echo "echo.>>%1">>touch.bat
 
 :: Save to path
 
