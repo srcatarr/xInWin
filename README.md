@@ -1,11 +1,11 @@
 # xInWin
 Use similar syntax of Bash in CMD
 ## Installation
-Run cmd as administrator and write codes below
+Run CMD as administrator and write codes below
 
 Using veledd (recommended):
 ```bash
-vld --indir https://raw.githubusercontent.com/srcatarr/xInWin/main/installer.cmd
+vld --indir installer.cmd https://raw.githubusercontent.com/srcatarr/xInWin/main/installer.cmd
 start installer.cmd
 ```
 
