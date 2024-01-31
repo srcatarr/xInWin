@@ -44,8 +44,4 @@ echo echo.>>%1
 
 :: Save to path
 
-set folder=%cd%\commands
-
-set PATH=%PATH%;%folder%
-
-setx /m path "%PATH%"
+setx path "%PATH%;%cd%\commands"
