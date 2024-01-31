@@ -1,7 +1,7 @@
 # xInWin
 Use similar syntax of Bash in CMD
 ## Installation
-Run cmd as administrator and write codes below
+Run CMD as administrator and write codes below
 
 Using veledd (recommended):
 ```bash
