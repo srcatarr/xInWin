@@ -43,6 +43,13 @@ curl -O https://raw.githubusercontent.com/srcatarr/xInWin/main/commands/ls.bat
 curl -O https://raw.githubusercontent.com/srcatarr/xInWin/main/commands/mkdir.bat
 curl -O https://raw.githubusercontent.com/srcatarr/xInWin/main/commands/rm.bat
 curl -O https://raw.githubusercontent.com/srcatarr/xInWin/main/commands/touch.bat
+curl -O https://raw.githubusercontent.com/srcatarr/xInWin/main/commands/cat.bat
+curl -O https://raw.githubusercontent.com/srcatarr/xInWin/main/commands/chmod.bat
+curl -O https://raw.githubusercontent.com/srcatarr/xInWin/main/commands/cp.bat
+curl -O https://raw.githubusercontent.com/srcatarr/xInWin/main/commands/less.bat
+curl -O https://raw.githubusercontent.com/srcatarr/xInWin/main/commands/mv.bat
+curl -O https://raw.githubusercontent.com/srcatarr/xInWin/main/commands/pwd.bat
+curl -O https://raw.githubusercontent.com/srcatarr/xInWin/main/commands/sed.bat
 
 cd %wd%
 

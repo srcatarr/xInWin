@@ -16,12 +16,19 @@ installer
 ```
 
 ## Supported Commands
+- cat
+- chmod
 - clear
+- cp
 - export
 - grep
+- less
 - ls
 - mkdir
+- mv
+- pwd
 - rm
+- sed
 - touch
 
 Contrubitors: @yaso09 & @yusufkt0

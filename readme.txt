@@ -4,12 +4,19 @@ Use similar syntax of Bash in CMD
 
 <<<<<<<<<<============== Supported Commands ===============>>>>>>>>>>
 
+- cat
+- chmod
 - clear
+- cp
 - export
 - grep
+- less
 - ls
 - mkdir
+- mv
+- pwd
 - rm
+- sed
 - touch
 
 <<<<<<<<<<================ CONTRUBITORS ===================>>>>>>>>>>
