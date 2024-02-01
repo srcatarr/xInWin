@@ -22,6 +22,7 @@ if %1==--help (
             rd "%PROGRAMFILES%\xInWin\commands"
             del "%PROGRAMFILES%\xInWin"
             rd "%PROGRAMFILES%\xInWin"
+            echo xInWin successfully uninstalled.
         ) else (
             if %1==--readme (
                 start https://github.com/srcatarr/xInWin#readme
