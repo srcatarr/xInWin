@@ -15,6 +15,7 @@ if %1==--help (
     echo.
 ) else (
     if %1==--update (
+        del "%PROGRAMFILES%\xInWin\installer.bat"
         curl https://raw.githubusercontent.com/srcatarr/xInWin/main/installer.bat>>"%PROGRAMFILES%\xInWin\installer.bat"
         "%PROGRAMFILES%\xInWin\installer.bat"
     ) else (
