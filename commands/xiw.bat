@@ -18,8 +18,8 @@ if %1==--help (
         installer
     ) else (
         if %1==--uninstall (
-            del %PROGRAMFILES%\xInWin
-            rd %PROGRAMFILES%\xInWin
+            del "%PROGRAMFILES%\xInWin"
+            rd "%PROGRAMFILES%\xInWin"
         ) else (
             if %1==--readme (
                 start https://github.com/srcatarr/xInWin#readme
