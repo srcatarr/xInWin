@@ -1,6 +1,6 @@
 @echo off
-if ""=="" (
-       set =
+if %1=="" (
+       set %1=%2
 ) else (
-       set  =
+       set %1 %2=%3
 )

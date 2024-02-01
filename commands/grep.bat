@@ -1,2 +1,2 @@
 @echo off
-findstr   
+findstr %1

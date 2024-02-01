@@ -1,2 +1,2 @@
 @echo off
-del 
+del %1

@@ -1,5 +1,4 @@
 @echo off
-@title xInWin Installer
 
 :: Intro
 
@@ -10,15 +9,18 @@ echo.
 
 pause
 
+echo.
+
 :: Create xInWin folder to %PROGRAMFILES%
 
 md "%PROGRAMFILES%\xInWin"
+echo.
 set xiw="%PROGRAMFILES\xInWin%"
 set wd=%cd%
 
 :: Download commands
 
-cd %xiw%
+cd %PROGRAMFILES%\xInWin
 
 :: Delete older directory
 
@@ -26,6 +28,8 @@ if exist commands (
     del commands
     rd commands
 )
+
+echo.
 
 :: Make directory
 
@@ -52,5 +56,7 @@ setx path "%PATH%;%xiw%\commands"
 
 :: Outro
 
+echo.
 echo xInWin installed.
+echo.
 

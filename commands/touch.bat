@@ -1,3 +1,2 @@
 @echo off
-set a=.
-echo.
+echo.>%1

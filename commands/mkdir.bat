@@ -1,2 +1,2 @@
 @echo off
-md 
+md %1 
