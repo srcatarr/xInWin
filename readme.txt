@@ -1,8 +1,8 @@
-<<<<<===== xInWin =====>>>>>
+<<<<<<<<<<===================== xInWin ====================>>>>>>>>>>
 
 Use similar syntax of Bash in CMD
 
-<<<<<===== Supported Commands =====>>>>>
+<<<<<<<<<<============== Supported Commands ===============>>>>>>>>>>
 
 - clear
 - export
@@ -12,7 +12,7 @@ Use similar syntax of Bash in CMD
 - rm
 - touch
 
-<<<<<===== CONTRUBITORS =====>>>>>
+<<<<<<<<<<================ CONTRUBITORS ===================>>>>>>>>>>
 
 Yasir Eymen KAYABAŞI
 https://github.com/yaso09
@@ -20,7 +20,7 @@ https://github.com/yaso09
 Yusuf Kayra TANER
 https://github.com/yusufkt0
 
-<<<<<===== LICENSE =====>>>>>
+<<<<<<<<<<==================== LICENSE ====================>>>>>>>>>>
 
 Use similar syntax of Bash in CMD
 Copyright (C) 2024  [array]
