@@ -18,6 +18,8 @@ if %1==--help (
         installer
     ) else (
         if %1==--uninstall (
+            del "%PROGRAMFILES%\xInWin\commands"
+            rd "%PROGRAMFILES%\xInWin\commands"
             del "%PROGRAMFILES%\xInWin"
             rd "%PROGRAMFILES%\xInWin"
         ) else (
