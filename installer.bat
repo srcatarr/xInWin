@@ -50,6 +50,7 @@ curl -O https://raw.githubusercontent.com/srcatarr/xInWin/main/commands/less.bat
 curl -O https://raw.githubusercontent.com/srcatarr/xInWin/main/commands/mv.bat
 curl -O https://raw.githubusercontent.com/srcatarr/xInWin/main/commands/pwd.bat
 curl -O https://raw.githubusercontent.com/srcatarr/xInWin/main/commands/sed.bat
+curl -O https://raw.githubusercontent.com/srcatarr/xInWin/main/commands/xiw.bat
 
 cd %wd%
 
