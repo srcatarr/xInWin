@@ -56,8 +56,8 @@ cd %wd%
 
 :: Download readme
 
-curl -O https://raw.githubusercontent.com/srcatarr/xInWin/main/readme.txt
-readme.txt
+curl https://raw.githubusercontent.com/srcatarr/xInWin/main/readme.txt>>"%PROGRAMFILES%\xInWin\readme.txt"
+"%PROGRAMFILES%\xInWin\readme.txt"
 
 :: Save to path
 
