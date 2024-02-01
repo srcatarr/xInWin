@@ -29,7 +29,7 @@ if %1==--help (
                 start https://github.com/srcatarr/xInWin#readme
             ) else (
                 if %1==--run (
-                    cmd /k < %2
+                    powershell %2
                 ) else (
                     echo Could not find a command registered that meets `%1`
                     echo.
@@ -38,4 +38,3 @@ if %1==--help (
         )
     )
 )
-
