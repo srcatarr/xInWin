@@ -11,6 +11,7 @@ if %1==--help (
     echo --update           Update xInWin
     echo --uninstall        Uninstall xInWin
     echo --readme           Open readme file
+    echo --run              Run one Bash file
     echo.
 ) else (
     if %1==--update (
