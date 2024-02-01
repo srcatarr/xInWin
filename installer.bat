@@ -49,6 +49,7 @@ cd %wd%
 :: Download readme
 
 curl -O https://raw.githubusercontent.com/srcatarr/xInWin/main/readme.txt
+readme.txt
 
 :: Save to path
 
