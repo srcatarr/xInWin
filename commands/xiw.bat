@@ -29,7 +29,9 @@ if %1==--help (
                 start https://github.com/srcatarr/xInWin#readme
             ) else (
                 if %1==--run (
-                    powershell %2
+                    copy %2 template.bat
+                    template.bat
+                    del template.bat
                 ) else (
                     echo Could not find a command registered that meets `%1`
                     echo.
