@@ -5,13 +5,13 @@ Run CMD as administrator and write codes below
 
 Using veledd (recommended):
 ```bash
-vld --indir installer.cmd https://raw.githubusercontent.com/srcatarr/xInWin/main/installer.cmd
+vld --indir installer.cmd https://raw.githubusercontent.com/srcatarr/xInWin/main/installer.bat
 installer
 ```
 
 Using curl:
 ```bash
-curl -O https://raw.githubusercontent.com/srcatarr/xInWin/main/installer.cmd
+curl -O https://raw.githubusercontent.com/srcatarr/xInWin/main/installer.bat
 installer
 ```
 
