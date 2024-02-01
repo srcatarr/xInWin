@@ -26,6 +26,9 @@ if %1==--help (
         ) else (
             if %1==--readme (
                 start https://github.com/srcatarr/xInWin#readme
+            ) else (
+                echo Could not find a command registered that meets `%1`
+                echo.
             )
         )
     )
