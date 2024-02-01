@@ -31,4 +31,7 @@ installer
 - sed
 - touch
 
+## Using CLI
+For call CLI in terminal type `xiw`. `xiw` is short of xInWin.
+
 Contrubitors: @yaso09 & @yusufkt0
