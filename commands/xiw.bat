@@ -30,9 +30,12 @@ if %1==--help (
                 start https://github.com/srcatarr/xInWin#readme
             ) else (
                 if %1==--run (
-                    copy %2 template.bat
+                    copy %2 template.bat > nul
+                    echo.
                     template.bat
                     del template.bat
+                    echo.
+                    echo Program exited
                 ) else (
                     echo Could not find a command registered that meets `%1`
                     echo.
