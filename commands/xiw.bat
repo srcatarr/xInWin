@@ -14,8 +14,8 @@ if %1==--help (
     echo.
 ) else (
     if %1==--update (
-        curl -O https://raw.githubusercontent.com/srcatarr/xInWin/main/installer.bat
-        installer
+        curl https://raw.githubusercontent.com/srcatarr/xInWin/main/installer.bat>>"%PROGRAMFILES%\xInWin\installer.bat"
+        "%PROGRAMFILES%\xInWin\installer.bat"
     ) else (
         if %1==--uninstall (
             del "%PROGRAMFILES%\xInWin\commands"
