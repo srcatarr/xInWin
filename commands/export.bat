@@ -1,6 +1,11 @@
 @echo off
-if %1=="" (
-       set %1=%2
-) else (
-       set %1 %2=%3
+
+if exist $%1.bat (
+       del $%1.bat
 )
+
+echo @echo off>>$%1.bat
+echo %2>>$%1.bat
+
+set %1=%2
+
