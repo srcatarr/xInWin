@@ -1,4 +1,2 @@
-@echo off
-
-rem %1
+:: Here empty
 
