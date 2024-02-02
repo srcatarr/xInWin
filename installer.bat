@@ -22,9 +22,6 @@ set wd=%cd%
 
 cd %PROGRAMFILES%\xInWin
 
-del interpreter.bat
-curl -O https://raw.githubusercontent.com/srcatarr/xInWin/main/interpreter.exe
-
 :: Delete older directory
 
 if exist commands (
@@ -38,6 +35,10 @@ echo.
 
 md commands
 cd commands
+
+del interpreter.exe
+curl -O https://raw.githubusercontent.com/srcatarr/xInWin/main/interpreter.exe
+ren interpreter.exe sh.exe
 
 curl -O https://raw.githubusercontent.com/srcatarr/xInWin/main/commands/clear.bat
 curl -O https://raw.githubusercontent.com/srcatarr/xInWin/main/commands/export.bat
