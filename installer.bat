@@ -36,7 +36,8 @@ echo.
 md commands
 cd commands
 
-curl -O https://raw.githubusercontent.com/srcatarr/xInWin/commands/#.bat
+curl -O https://raw.githubusercontent.com/srcatarr/xInWin/commands/comment.bat
+ren comment.bat #.bat
 curl -O https://raw.githubusercontent.com/srcatarr/xInWin/main/commands/clear.bat
 curl -O https://raw.githubusercontent.com/srcatarr/xInWin/main/commands/export.bat
 curl -O https://raw.githubusercontent.com/srcatarr/xInWin/main/commands/grep.bat
