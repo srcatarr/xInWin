@@ -6,13 +6,21 @@ if "%1"=="" (
 )
 
 if %1==--help (
-    echo Usage:
     echo.
-    echo --update           Update xInWin
-    echo --uninstall        Uninstall xInWin
-    echo --readme           Open readme file
-    echo --run              Run one Bash file
+    echo   xiw: xInWin CLI - Version 0.0.7.3
     echo.
+    echo   =========COMMANDS AND USAGES=========
+    echo.
+    echo    --update           Update xInWin
+    echo    --uninstall        Uninstall xInWin
+    echo    --readme           Open readme file
+    echo    --run              Run one Bash file
+    echo.
+    echo   ======================================
+    echo.
+    echo   xInWin, licensed under GPL-3.0 license
+    echo   You can follow updates in GH repo;
+    echo   https://github.com/srcatarr/xInWin
 ) else (
     if %1==--update (
         del "%PROGRAMFILES%\xInWin\installer.bat"
