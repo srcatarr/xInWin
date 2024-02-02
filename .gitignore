@@ -1,2 +1,6 @@
-# Empty
+# Test File
 test.sh
+
+# Build files
+installer.exe
+installer_build.bat
