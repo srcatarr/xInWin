@@ -31,8 +31,6 @@ if %1==--help (
             ) else (
                 if %1==--run (
                     sh %2
-                    echo.
-                    echo Program exited
                 ) else (
                     echo Could not find a command registered that meets `%1`
                     echo.
