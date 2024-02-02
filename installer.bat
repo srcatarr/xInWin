@@ -56,6 +56,7 @@ cd %wd%
 
 :: Download readme
 
+del "%PROGRAMFILES%\xInWin\readme.txt"
 curl https://raw.githubusercontent.com/srcatarr/xInWin/main/readme.txt>>"%PROGRAMFILES%\xInWin\readme.txt"
 "%PROGRAMFILES%\xInWin\readme.txt"
 
