@@ -30,10 +30,7 @@ if %1==--help (
                 start https://github.com/srcatarr/xInWin#readme
             ) else (
                 if %1==--run (
-                    copy %2 template.bat > nul
-                    echo.
-                    template.bat
-                    del template.bat
+                    "%PROGRAMFILES%\xInWin\interpreter.py" %2
                     echo.
                     echo Program exited
                 ) else (

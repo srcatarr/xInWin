@@ -18,9 +18,12 @@ echo.
 set xiw="%PROGRAMFILES\xInWin%"
 set wd=%cd%
 
-:: Download commands
+:: Download commands and interpreter
 
 cd %PROGRAMFILES%\xInWin
+
+del interpreter.bat
+curl -O https://raw.githubusercontent.com/srcatarr/xInWin/main/interpreter.exe
 
 :: Delete older directory
 
@@ -36,7 +39,6 @@ echo.
 md commands
 cd commands
 
-echo.>#.bat
 curl -O https://raw.githubusercontent.com/srcatarr/xInWin/main/commands/clear.bat
 curl -O https://raw.githubusercontent.com/srcatarr/xInWin/main/commands/export.bat
 curl -O https://raw.githubusercontent.com/srcatarr/xInWin/main/commands/grep.bat
