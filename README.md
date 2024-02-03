@@ -29,6 +29,7 @@ installer
 - pwd
 - rm
 - sed
+- sudo
 - touch
 
 ## Using CLI

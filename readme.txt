@@ -17,6 +17,7 @@ Use similar syntax of Bash in CMD
 - pwd
 - rm
 - sed
+- sudo
 - touch
 
 <<<<<<<<<<================ CONTRUBITORS ===================>>>>>>>>>>
